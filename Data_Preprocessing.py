@@ -53,6 +53,6 @@ def clean_and_preprocess_csv(file_path, output_path):
         print(f"An error occurred: {e}")
 
 # Change the path for cleaning and saving
-input_csv_path = r"C:\Users\Kavan\Desktop\Kavan\Truetech Internship\Training_Dataset.csv"
-output_csv_path = r"C:\Users\Kavan\Desktop\Kavan\Truetech Internship\Dataset.csv"
+input_csv_path = r"C:\User\Training_Dataset.csv"
+output_csv_path = r"C:\User\Clean_Dataset.csv"
 clean_and_preprocess_csv(input_csv_path, output_csv_path)
